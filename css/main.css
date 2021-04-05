@@ -1,147 +1,152 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(to right, #a8e6cf 40%, #dcedc1 66%);
-    font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #a8e6cf 40%, #dcedc1 66%);
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h3, h2 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
+h1,
+h3,
+h2 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 button {
-    cursor: pointer;
-    outline: none;
-    border: none;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 0 5px;
-    color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 0 5px;
+  color: #fff;
 }
 
 button:active {
-    position: relative;
-    top: 2px;
+  position: relative;
+  top: 2px;
 }
 
 button:hover {
-    box-shadow: 0 0 3px 0 #000;
+  box-shadow: 0 0 3px 0 #000;
 }
 
 h1 {
-    font-family: 'Kiwi Maru', serif;
-    font-weight: 600;
-    margin: 20px;
+  font-family: "Kiwi Maru", serif;
+  font-weight: 600;
+  margin: 20px;
 }
 
 h2 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 h3 {
-    color: grey;
+  color: grey;
 }
 
 .books-container {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 90vw;
-    height: 75%;
-    background-color: rgba(235, 230, 230, 0.5);
-    border-radius: 5px;
-    box-shadow: 0 0 2px 0 #000;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 75%;
+  background-color: rgba(235, 230, 230, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 #000;
 }
 
 .book-box {
-    display: flex;
-    margin: 10px;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #fff;
-    width: 200px;
-    height: 400px;
-    border: 1px solid #000;
-    border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 200px;
+  height: 400px;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 
 .book-box img {
-    width: 150px;
+  width: 150px;
 }
 
 .read-btn {
-    background-color: rgb(67, 67, 167);
+  background-color: rgb(67, 67, 167);
 }
 
 .update-btn {
-    background-color: rgb(197, 154, 75);
+  background-color: rgb(197, 154, 75);
 }
 
 .remove-btn {
-    background-color: rgb(173, 62, 62);
+  background-color: rgb(173, 62, 62);
 }
 
 .page-nav {
-    margin: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-nav button {
-    background-color: grey;
+  background-color: grey;
 }
 
 .book-data {
-    background-color: #fff;
-    width: 300px;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-left: 1px solid #000;
+  background-color: #fff;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 1px solid #000;
 }
 
 .book-data img {
-    width: 40%;
+  width: 40%;
 }
 
 .book-data p {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.new-book-btn button, .price-update-btn, .book-data button, .new-book-btns button {
-    background-color: grey;
+.new-book-btn button,
+.price-update-btn,
+.book-data button,
+.new-book-btns button {
+  background-color: grey;
 }
 
 .new-book-btn button {
-    margin: 5px 10%;
+  margin: 5px 10%;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .image-choose {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .book-description {
-    height: 20vh;
+  height: 20vh;
 }

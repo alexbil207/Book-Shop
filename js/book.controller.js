@@ -21,6 +21,10 @@ function renderBooks() {
             </div>
         </div>`
     })
+    if (!books.length) {
+        document.querySelector('.books-container').innerHTML = `<h2>Add Books To Your Shop</h2>`;
+        return;
+    }
     document.querySelector('.books-container').innerHTML = strHtmls.join('');
 
 }
@@ -56,7 +60,7 @@ function onRemoveBook(bookId) {
 function onUpdateBook(bookId) {
     var price = document.querySelector(`h3[data-id="${bookId}`)
     price.innerHTML = `
-    <input type="number" />
+    <input type="number" placeholder="Enter new Price"/>
     <button class="price-update-btn" onclick="onPriceUpdate('${bookId}')">Update</button>
     `
 }
