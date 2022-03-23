@@ -111,7 +111,7 @@ function createBooks(newBook) {
 function _createBook(newBook) {
     var books = loadFromStorage(KEY);
     newBook.id = makeId();
-    newBook.image = './images/book-default.png';
+    newBook.image = 'images/book-default.png';
     books.push(newBook);
     saveToStorage(KEY, books);
 

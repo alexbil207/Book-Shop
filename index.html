@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Book-Shop</title>
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-    <!-- CSS Style -->
-    <link rel="stylesheet" href="./css/main.css" />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <h1>Welcome To BookShop</h1>
-    <div class="new-book-btn">
-      <button onclick="onNewBook()">Add Book</button>
-    </div>
-    <section class="books-container"></section>
-    <div class="page-nav">
-      <button class="back-page-btn" onclick="onBackPage()">◀</button>
-      <button class="next-page-btn" onclick="onNextPage()">▶</button>
-    </div>
-    <section class="book-data hidden"></section>
-    <script src="./js/services/util.service.js"></script>
-    <script src="./js/services/storage.service.js"></script>
-    <script src="./js/services/book.service.js"></script>
-    <script src="./js/book.controller.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book-Shop</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>Welcome To BookShop</h1>
+  <div class="new-book-btn">
+    <button onclick="onNewBook()">Add Book</button>
+  </div>
+  <section class="books-container"></section>
+  <div class="page-nav">
+    <button class="back-page-btn" onclick="onBackPage()">◀</button>
+    <button class="next-page-btn" onclick="onNextPage()">▶</button>
+  </div>
+  <section class="book-data hidden"></section>
+  <script src="js/services/util.service.js"></script>
+  <script src="js/services/storage.service.js"></script>
+  <script src="js/services/book.service.js"></script>
+  <script src="js/book.controller.js"></script>
+</body>
+
 </html>
